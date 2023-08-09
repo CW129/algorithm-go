@@ -5,6 +5,7 @@
 !*.*
 
 *.mod
+go.work
 
 # Unignore all dirs
 
