@@ -1,0 +1,11 @@
+#Ignore All
+*
+
+#UnIgnore extensions file
+!*.*
+
+*.mod
+
+# Unignore all dirs
+
+!*/
