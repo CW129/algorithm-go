@@ -4,7 +4,6 @@
 #UnIgnore extensions file
 !*.*
 
-*.mod
 go.work
 
 # Unignore all dirs
