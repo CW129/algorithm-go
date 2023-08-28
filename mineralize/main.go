@@ -81,6 +81,7 @@ func main() {
 // 	return 0
 // }
 
+// 정답
 type Fatigue struct {
 	diamond int
 	iron    int
