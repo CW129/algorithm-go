@@ -8,7 +8,7 @@ components:
       env:
         - name: KUBEDOCK_ENABLED
           value: 'true'
-        - name: DOCKER_HOST
+        - name: CONTAINER_HOST
           value: 'tcp://127.0.0.1:2475'
       endpoints:
         - exposure: none
