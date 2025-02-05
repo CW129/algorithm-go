@@ -4,7 +4,7 @@ metadata:
 components:
   - name: universal-developer-image
     container:
-      image: quay.io/devfile/universal-developer-image:bui8-latest
+      image: quay.io/devfile/universal-developer-image:ubi8-latest
       env:
         - name: KUBEDOCK_ENABLED
           value: 'true'
