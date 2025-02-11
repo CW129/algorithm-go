@@ -1,12 +1,12 @@
 schemaVersion: 2.2.0
 metadata:
   name: kubedock-sample-devfile
+attributes:
+  container-overrides:
+    securityContext:
+      privileged: true
 components:
   - name: universal-developer-image
-    attributes:
-      container-overrides:
-        securityContext:
-          privileged: true
     container:
       image: quay.io/devfile/universal-developer-image:ubi8-latest
       env:
