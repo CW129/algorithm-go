@@ -8,6 +8,8 @@ attributes:
       capabilities:
         add:
         - ALL
+      runAsUser: 0
+      runAsNonRoot: false
 components:
   - name: universal-developer-image
     attributes:
@@ -18,5 +20,6 @@ components:
             add:
             - ALL
           runAsUser: 0
+          
     container:
       image: quay.io/devfile/universal-developer-image:ubi8-latest
