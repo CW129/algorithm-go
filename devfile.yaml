@@ -2,7 +2,7 @@ schemaVersion: 2.2.0
 metadata:
   name: kubedock-sample-devfile
 attributes:
-  container-overrides:
+  pod-overrides:
     securityContext:
       privileged: true
       capabilities:
