@@ -3,6 +3,10 @@ metadata:
   name: kubedock-sample-devfile
 components:
   - name: universal-developer-image
+    attributes:
+      container-overrides:
+        securityContext:
+          privileged: true
     container:
       image: quay.io/devfile/universal-developer-image:ubi8-latest
       env:
