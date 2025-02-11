@@ -17,5 +17,6 @@ components:
           capabilities:
             add:
             - ALL
+          runAsUser: 0
     container:
       image: quay.io/devfile/universal-developer-image:ubi8-latest
