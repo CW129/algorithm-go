@@ -5,7 +5,17 @@ attributes:
   container-overrides:
     securityContext:
       privileged: true
+      capabilities:
+        add:
+        - ALL
 components:
   - name: universal-developer-image
+    attributes:
+      container-overrides:
+        securityContext:
+          privileged: true
+          capabilities:
+            add:
+            - ALL
     container:
       image: quay.io/devfile/universal-developer-image:ubi8-latest
