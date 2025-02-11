@@ -20,6 +20,6 @@ components:
             add:
             - ALL
           runAsUser: 0
-          
+          runAsNonRoot: false
     container:
       image: quay.io/devfile/universal-developer-image:ubi8-latest
