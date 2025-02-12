@@ -1,15 +1,15 @@
 schemaVersion: 2.2.0
 metadata:
   name: kubedock-sample-devfile
-attributes:
-  pod-overrides:
-    securityContext:
-      privileged: true
-      capabilities:
-        add:
-        - ALL
-      runAsUser: 0
-      runAsNonRoot: false
+# attributes:
+#   pod-overrides:
+#     securityContext:
+#       privileged: true
+#       capabilities:
+#         add:
+#         - ALL
+#       runAsUser: 0
+#       runAsNonRoot: false
 components:
   - name: universal-developer-image
     attributes:
