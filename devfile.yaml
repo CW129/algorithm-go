@@ -19,6 +19,8 @@ components:
           capabilities:
             add:
             - ALL
+            drop:
+            - ''
           runAsUser: 0
           runAsNonRoot: false
     container:
